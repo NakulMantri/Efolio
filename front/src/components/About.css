@@ -1,0 +1,25 @@
+.About{
+    display: flex;
+    width: 100%;
+    margin: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Text{
+    width: 50%;
+    text-align: justify;
+    text-justify: inter-word;
+    margin: 25px 150px;
+}
+
+.Img{
+    width: 50%;
+    border-radius: 175px;
+}
+
+.Img img{
+    width: 350px;
+    height: 350px;
+    border-radius: 75px;
+    margin-left: 50px;
+}

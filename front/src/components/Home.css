@@ -1,0 +1,141 @@
+main{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(45deg, rgb(230, 162, 38), orange);
+}
+
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    padding: 0px 60px;
+    align-items: center;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+
+.Logo{
+    font-size: 40px;
+    font-weight: 500;
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Links{
+    width: 500px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Links a{
+    height: 45px;
+    width: 400px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;  
+    font-weight: 400;
+    color: #ffffff;
+    letter-spacing: 0.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Links a:before{
+    position: absolute;
+    height: 2px;
+    width: 12px;
+    border-radius: 1px;
+    content: '';
+    bottom: 0;
+    background-color: #ffffff;
+    visibility: hidden;
+    transform: scale(0);
+    transition: all 300ms ease;
+}
+
+.Links a:hover:before{
+    visibility: visible;
+    transform: scaleX(1);
+}
+
+.Links a:hover{
+    color: #ffffff;
+}
+
+.Acc{
+    height: fit-content;
+    width: fit-content;
+    margin: 0px 20px;
+}
+
+.Acc button{
+    border: 0;
+    height: 44px;
+    width: 160px;
+    outline: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #e20066;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ffffff;
+}
+
+.Acc button:hover{
+    transition: ease 300ms;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+}
+
+.Info{
+    display: flex;
+}
+
+.Info .Img img{
+    width: 350px;
+    height: 350px;
+    margin: 100px 350px;
+    border-radius: 175px;
+}
+
+.Info .Name{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    margin: 150px 0px 10px 100px;
+    font-weight: 400;
+}
+
+.Info .Role{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    margin: 10px 0px 150px 100px;
+    font-weight: 400;
+}
+
+.custom-shape-divider-bottom-1710258436 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1710258436 svg {
+    position: relative;
+    display: block;
+    width: calc(127% + 1.3px);
+    height: 245px;
+}
+
+.custom-shape-divider-bottom-1710258436 .shape-fill {
+    fill: #ffffff;
+}

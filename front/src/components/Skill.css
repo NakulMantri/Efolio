@@ -1,0 +1,22 @@
+.Skill-Container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: auto;
+    border-radius: 10px;
+    justify-content: center;
+    background-color: rgb(231, 210, 179);
+    margin: 50px 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+  
+.Skill-Container > div {
+    background-color: #f1f1f1;
+    width: auto;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 20px;
+    border-radius: 25px;
+}
